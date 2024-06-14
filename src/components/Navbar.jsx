@@ -15,6 +15,12 @@ const Navbar = () => {
           <Link as={NavLink} to="/contact" px={2} py={1} rounded="md" _hover={{ textDecoration: "none", bg: "teal.700" }} _activeLink={{ bg: "teal.700" }}>
             Contact
           </Link>
+          <Link as={NavLink} to="/login" px={2} py={1} rounded="md" _hover={{ textDecoration: "none", bg: "teal.700" }} _activeLink={{ bg: "teal.700" }}>
+            Login
+          </Link>
+          <Link as={NavLink} to="/register" px={2} py={1} rounded="md" _hover={{ textDecoration: "none", bg: "teal.700" }} _activeLink={{ bg: "teal.700" }}>
+            Register
+          </Link>
         </Box>
       </Flex>
     </Box>
